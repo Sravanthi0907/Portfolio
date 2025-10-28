@@ -59,13 +59,13 @@
             background: var(--bg-primary);
             backdrop-filter: blur(12px);
             border-bottom: 1px solid var(--border);
-            padding: 1.2rem 0;
+            padding: 1rem 0;
             z-index: 1000;
             transition: all 0.3s ease;
         }
 
         nav.scrolled {
-            padding: 1rem 0;
+            padding: 0.7rem 0;
             box-shadow: var(--shadow-sm);
         }
 
@@ -89,7 +89,7 @@
         .nav-menu li a {
             color: var(--text-primary);
             text-decoration: none;
-            font-weight: 600;
+            font-weight: 700;
             font-size: 0.9rem;
             letter-spacing: 0.5px;
             position: relative;
@@ -103,7 +103,7 @@
             bottom: -8px;
             left: 0;
             width: 0;
-            height: 2px;
+            height: 1px;
             background: var(--accent);
             transition: width 0.3s ease;
         }
@@ -124,8 +124,8 @@
         .theme-toggle {
             background: var(--bg-primary);
             border: 1px solid var(--border);
-            width: 50px;
-            height: 50px;
+            width: 40px;
+            height: 40px;
             border-radius: 50%;
             cursor: pointer;
             display: flex;
@@ -510,7 +510,7 @@
         }
         
         .card:hover {
-            transform: translateY(-8px);
+            transform: translateY(2px);
             box-shadow: var(--shadow-lg);
         }
 
@@ -803,7 +803,7 @@
                 top: 70px;
                 left: -100%;
                 width: 100%;
-                background: var(--bg-secondary);
+                background: var(--bg-primary);
                 flex-direction: column;
                 padding: 2rem;
                 box-shadow: var(--shadow-lg);
@@ -860,7 +860,7 @@
 
         @media (max-width: 480px) {
             .slider-wrapper {
-                padding: 0 5vw;
+                padding: 0;
             }
 
             .card {
